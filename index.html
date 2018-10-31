@@ -18,11 +18,19 @@
   <!-- 简介 -->
   <div class="bg" id="barA">
       <div class="header">
-        <h2>Welcome to the homepage of <span> Su Lin </span> </h2>
-        <p> I am a <br> Student, <br> Photographer, <br> Traveler, <br> Design enthusiast, <br> Data explorer, <br> and
-          Journalist </p>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <h2>Welcome to the blog of SU LIN. </br> I am a
+    <span
+       class="txt-rotate"
+       data-period="2000"
+       data-rotate='[ "business journalist.", "photographer.", "data explorer.", "design enthusiast.", "traveler" ]'></span>
+  </h2>
+
       </div>
   </div>
+
+
+
   <div class="p3">
     <!-- 导航栏 -->
     <div id="navbar">
@@ -325,6 +333,64 @@
   </div>
   </div>
 
+<script>
+   var TxtRotate = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+
+  TxtRotate.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 300 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 5; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(function() {
+      that.tick();
+    }, delta);
+  };
+
+  window.onload = function() {
+    var elements = document.getElementsByClassName('txt-rotate');
+    for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-rotate');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+    document.body.appendChild(css);
+  };
+</script>
   <script>
     //滚动滚轮固定导航栏
     window.onscroll = function () { myFunction() };

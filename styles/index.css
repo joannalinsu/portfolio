@@ -9,9 +9,29 @@ body,html {
     background-size:cover;
 }
 
+
 body {
   margin: 0;
   font-size: 20px;
+
+}
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #1e3d7b
+}
+
+h1,h2 {
+  font-weight: 200;
+}
+
+h1 { font-size: 3.5em;
+}
+
+h2 {
+  color: #1e3d7b;
+  font-size: 2em;
 }
 
 .header {
