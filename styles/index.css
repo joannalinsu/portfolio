@@ -30,7 +30,7 @@ h1 { font-size: 3.5em;
 }
 
 h2 {
-  color: #1e3d7b;
+  color: #f2f2f2;
   font-size: 2em;
 }
 
@@ -604,7 +604,7 @@ Main components
   float: left;
   padding: 7em;
   width: 50%;
-  height: 400px;
+  height: 300px;
 }
 .pro_text{
   float: left;
