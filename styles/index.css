@@ -1,6 +1,7 @@
 body,html {
   height:100%;
 }
+
 .bg {
     background: url(../styles/bg.JPG);
     height: 100%;
@@ -9,44 +10,41 @@ body,html {
     background-size:cover;
 }
 
-
-body {
-  margin: 0;
-  font-size: 20px;
-
-}
-
-html,body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  color: #1e3d7b
-}
-
-h1,h2 {
-  font-weight: 200;
-}
-
-h1 { font-size: 3.5em;
-}
-
-h2 {
-  color: #f2f2f2;
-  font-size: 2em;
-}
-
 .header {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Raleway', cursive, sans-serif;
   padding: 50px;
   text-align: justify;
   color:white;
 }
 
 .header span{
-  font-size: 30px;
+  font-size: 100px;
 }
-.header h2{
-  font-family:Impact, Charcoal, sans-serif;
+
+body {
+  margin: 2;
 }
+
+
+h1 {font-size: 3.5em;
+}
+
+.cd-timeline-content span{
+  color:#990000;
+}
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #1e3d7b
+}
+
+h2{
+  color: #f2f2f2;
+  font-size: 5em;
+  font-weight: 1000;
+}
+
+
 
 #navbar {
   font-family: Helvetica Neue,PingFang SC,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
@@ -92,6 +90,7 @@ h2 {
 .col-sm {
   font-size: 0.5em
 }
+
 
 
 #p3 {
@@ -385,6 +384,7 @@ Main components
   /*box-shadow: 0 3px 0 #d7e4ed;*/
   border: 1px solid #ddd;
 }
+
 .cd-timeline-content:after {
   content: "";
   display: table;
@@ -393,13 +393,11 @@ Main components
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
-}
+
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
+
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
@@ -429,6 +427,7 @@ Main components
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
@@ -611,4 +610,8 @@ Main components
   padding: 5em;
   width: 50%;
   height: 600px;
+}
+
+.end{
+    text-align: center;
 }

@@ -52,7 +52,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 220px;
   font-size: 40px;
   /* color: #360007; */
   background: currentColor;
@@ -91,7 +90,7 @@ html {
 } */
 .item__content--medium {
   /* color: #ffc093; */
-  height: 250px;
+  height: 200px;
 }
 /* .item__content--medium:hover {
   background: #ffd8bc;
@@ -101,7 +100,7 @@ html {
 } */
 .item__content--large {
   /* color: #ff7f51; */
-  height: 260px;
+  height: 230px;
 }
 /* .item__content--large:hover {
   background: #ff9d7a;
