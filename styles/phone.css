@@ -22,8 +22,8 @@
         }
 
         #phone_1 {
-            width: 400px;
-            height: 650px
+            width: 500px;
+            height: 850px
         }
 
         /*Different Perspectives*/
@@ -73,10 +73,10 @@
         #views button {
             width: 198px;
             border: 1px solid #bbb;
-            background-color: #fff;
+            background-color: #1e3d7b;
             height: 40px;
             margin: 10px 0;
-            color: #666;
+            color: #bbb;
             transition: all 0.2s;
         }
 
