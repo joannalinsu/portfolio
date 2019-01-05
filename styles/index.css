@@ -1,4 +1,4 @@
-html{color:#000;background:#FFF;}
+html{color:#B0E0E6;background:#FFF;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
 fieldset,input,textarea,p,blockquote,th,td{
 margin:0;
@@ -44,9 +44,9 @@ abbr,acronym { border:0;
 }
 a{
     text-decoration: none;
-    color: #1e3d7b;
+    color: #66c1e5;
     font-size:18px;
-    font-family: Georgia;
+    font-family: Serif;
 }
 
 li{
@@ -61,7 +61,7 @@ body,html {
 }
 
 .bg {
-    height: 50%;
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -69,13 +69,13 @@ body,html {
 
 .header {
   font-family: 'Raleway', cursive, sans-serif;
-  padding: 60px;
-  text-align: justify;
-  color:#1e3d7b;
+  padding: 50px;
+  text-align:left;
+  color: #4fb9e3;
 }
 
 .header span{
-  font-size: 70px;
+  font-size: 50px;
 }
 
 body {
@@ -83,16 +83,16 @@ body {
 }
 
 
-h1 {font-size: 3.5em;
+h1 {font-size: 2em;
 }
 
 .cd-timeline-content span{
-  color:#990000;
+  color:#4fb9e3;
 }
 html,body {
-  font-family: 'Raleway', sans-serif;
+  font-family: Georgia；
   font-size: 16px;
-  color: #1e3d7b
+  color: #B0E0E6
 }
 
 h2{
@@ -115,7 +115,7 @@ h6{
 #navbar {
   font-family: Helvetica Neue,PingFang SC,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
   overflow: hidden;
-  background-color: #1e3d7b;
+  background-color: #3bb0de;
   z-index:1;
 }
 
@@ -126,7 +126,7 @@ h6{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 #navbar a:hover {
@@ -157,8 +157,6 @@ h6{
   font-size: 0.5em
 }
 
-
-
 #p3 {
 
   height: 600px;
@@ -171,7 +169,7 @@ h6{
 #togBut {
   border: 1px solid white;
   border-radius: 10px;
-  background: #e52b50;
+  background: #87CEEB;
   padding: 1.5px;
 
 }
@@ -191,7 +189,7 @@ h6{
 
 body {
   font-size: 100%;
-  font-family: raleway,sans-serif;
+  font-family: Georgia;
   color: #69859c;
   background-color: #e9f0f5;
 }
