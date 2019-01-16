@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
-        /* body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #FFFAF6;
-        } */
 
-        /*Basic Phone styling*/
 
         .phone {
             border: 40px solid #ddd;
@@ -26,24 +21,18 @@
             height: 850px
         }
 
-        /*Different Perspectives*/
 
         .phone.view_1 {
             transform: rotateX(50deg) rotateY(0deg) rotateZ(-50deg);
             box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
         }
 
-        /*.phone.view_2 {
-            transform: rotateX(0deg) rotateY(-60deg) rotateZ(0deg);
-            box-shadow: 5px 1px 0 #BBB, 9px 2px 0 #BBB, 12px 3px 0 #BBB, 15px 4px 0 #BBB, 0 7px 20px #999;
-        }*/
+
 
         .phone.view_3 {
             transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
             box-shadow: 0px 3px 0 #BBB, 0px 4px 0 #BBB, 0px 5px 0 #BBB, 0px 7px 0 #BBB, 0px 10px 20px #666;
         }
-
-        /*Controls*/
 
         #controls {
             top: 20px;

@@ -1,11 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
-/* body,
-html {
-  position: relative;
-  width: 100%;
-  height: 100%;
-} */
+
 
 .masonry {
   -webkit-column-count: 1;
@@ -53,61 +48,27 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  /* color: #360007; */
+
   background: currentColor;
   box-sizing: border-box;
-  /* color: #720026; */
+
 }
-/* .item__content:hover {
-  background: #9b0034;
-} */
-/* .item__content:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 13px;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  text-align: center;
-  font-weight: bold;
-  background-color: #222;
-  content: counter(item-counter);
-} */
-/* .item__content:after {
-  color: #1c0004;
-  content: "ಠ‿ಠ";
-} */
+
 .item__content--small {
-  /* color: #ce4257; */
+
   height: 150px;
 }
-/* .item__content--small:hover {
-  background: #d66274;
-} */
-/* .item__content--small:after {
-  content: "♥◡♥";
-} */
+
 .item__content--medium {
-  /* color: #ffc093; */
+
   height: 200px;
 }
-/* .item__content--medium:hover {
-  background: #ffd8bc;
-} */
-/* .item__content--medium:after {
-  content: "◔ᴗ◔";
-} */
+
 .item__content--large {
-  /* color: #ff7f51; */
+
   height: 280px;
 }
-/* .item__content--large:hover {
-  background: #ff9d7a;
-}
-.item__content--large:after {
-  content: "ಠ_๏";
-} */
+
 .img_mask{
   cursor: pointer;
   display: none;

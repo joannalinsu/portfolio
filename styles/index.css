@@ -61,7 +61,7 @@ body,html {
 }
 
 .bg {
-    height: 40%;
+    height: 45%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -74,9 +74,9 @@ body,html {
   color: #4fb9e3;
 }
 
-.header span{
+/*---/.header span{
   font-size: 50px;
-}
+}  /-----*/
 
 body {
   margin: 2;
@@ -196,35 +196,22 @@ body {
 
 
 
-/* --------------------------------
 
-Modules - reusable parts of our design
-
--------------------------------- */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 100%;
-  /* max-width: 1170px; */
+
   margin: 0 auto;
 }
 .cd-container::after {
-  /* clearfix */
   content: '';
   display: table;
   clear: both;
 }
-/* 背景色 */
 .bg-yellow{
   background-color: #f0f0f0;
 }
 .bg-blue{
   background-color: #e9f0f5;
 }
-/* --------------------------------
-
-Main components
-
--------------------------------- */
 
 
 #barB,#barG {
@@ -232,7 +219,6 @@ Main components
   padding: 2em;
 }
 #barB::before {
-  /* this is the vertical line */
   content: '';
   position: absolute;
   top: 0;
