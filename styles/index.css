@@ -118,6 +118,11 @@ h6{
   font-weight: bold;
 }
 
+.far fa-envelope{
+  style=font-size:24px;
+}
+
+
 #navbar {
   font-family: Helvetica Neue,PingFang SC,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
   overflow: hidden;
@@ -140,11 +145,28 @@ h6{
   color: black;
 }
 
-#navbar > a.active {
+
+#navbar2 {
+  font-family: Helvetica Neue,PingFang SC,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+  overflow: hidden;
+  background-color: #3bb0de;
+  z-index:1;
+}
+
+#navbar2 a {
+  float:right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar2 a:hover {
   background-color: #eaf0fa;
   color: black;
 }
-
 
 
 .content {

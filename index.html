@@ -4,9 +4,12 @@
 <meta name='description' content='my portfolio'>
 
 <head>
+  <link rel="shortcut icon" href="styles/bg.JPG" type="image/x-icon" />
   <link href="styles/index.css" rel="stylesheet" type="text/css">
   <link href="styles/phone.css" rel="stylesheet" type="text/css">
   <link href="styles/masonry.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
@@ -21,6 +24,14 @@
        data-period="500"
        data-rotate='[ "data explorer.","design enthusiast.","tech-savvy digital native.", "photographer.", "traveler" ]'></span>
   </h1>
+</br>
+
+   <i class='far fa-envelope'>
+    <a href="mailto:sulinjoanna@gmail.com" target="blank"> Email </a>
+  </i></br></br>
+  <i class='far fa-address-card'>
+   <a href="https://drive.google.com/file/d/1rSvGrlB4Xr4eQNjxPA64T3H8IvURlJTs/view?usp=sharing" target="blank"> Resume </a>
+ </i>
 
       </div>
   </div>
@@ -28,14 +39,20 @@
   <!--- <div class="p3"> -->
 
     <div id="navbar">
+      <span id="navbar">
       <a href="#barA"> Intro</a>
       <a href="#barD"> Animation</a>
       <a href="#barF"> Data Exploration </a>
       <a href="#barC"> Visualized Stories</a>
-      <a href="#barE"> Buisness Stories</a>
-      <a href="#barG"> Technology Thinking</a>
-      <a href="#barI"> Photography</a>
+    </span>
+    <span id="navbar2">
       <a href="#barB"> Experience</a>
+      <a href="#barI"> Photography</a>
+      <a href="#barG"> Technology Thinking</a>
+      <a href="#barE"> Buisness Stories</a>
+
+
+
     </div>
 
      <section id="barD" class="cd-container bg-blue">
@@ -382,10 +399,8 @@
     </div>
   </section>
 <section id="barJ" class="cd-container bg-yellow">
-  <div class="middle">
-  </br><a href="https://drive.google.com/file/d/1rSvGrlB4Xr4eQNjxPA64T3H8IvURlJTs/view?usp=sharing" target="_blank">  See my resume</a> </br></br>
-    Contact: sulinjoanna@gmail.com </br></br>
-      All Rights Reserved. </div>
+  <div class="middle"> </br>
+      Coded by Lin Su & Powered by LOVE. </br> </br> All Rights Reserved. </div>
   </div>
 </br></br>
 </section>
@@ -467,6 +482,7 @@
     $('.item').mouseout(function(){
       $(this).find(".img_mask").hide();
     })
+
   </script>
 
   </div>
